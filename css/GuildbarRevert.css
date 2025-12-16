@@ -50,7 +50,7 @@ nav[class*="-guilds "] {
 
     [class*="-childWrapper "],
     [class*="-childWrapper "] img,
-    ._6e9f8dce4cc18de3-icon,
+    [class*="-icon"],
     [class$="-circleIconButton"] {
         border-radius: 50% !important;
         transition: border-radius 150ms linear;
@@ -59,7 +59,7 @@ nav[class*="-guilds "] {
     [class*="-selected"] {
         [class*="-childWrapper "],
         [class*="-childWrapper "] img,
-        ._6e9f8dce4cc18de3-icon,
+        [class*="-icon"],
         &[class$="-circleIconButton"] {
             border-radius: 27% !important;
         }
@@ -92,7 +92,8 @@ nav[class*="-guilds "] {
         }
     }
 
-    [class$="-folderPreviewWrapper"] {
+    /* removing as i see no need for this */
+    /* [class$="-folderPreviewWrapper"] {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -120,7 +121,7 @@ nav[class*="-guilds "] {
         &[style*="font-size: 8px;"] {
             font-size: 6px !important;
         }
-    }
+    } */
 
     [class$="-folderButton"] {
         overflow: visible;
