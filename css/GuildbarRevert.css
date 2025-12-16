@@ -92,7 +92,8 @@ nav[class*="guilds_"] {
         }
     }
 
-    [class*="folderPreviewWrapper__"] {
+    /* removing as i see no need for this */
+    /* [class*="folderPreviewWrapper__"] {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -120,7 +121,7 @@ nav[class*="guilds_"] {
         &[style*="font-size: 8px;"] {
             font-size: 6px !important;
         }
-    }
+    } */
 
     [class*="folderButton__"] {
         overflow: visible;
