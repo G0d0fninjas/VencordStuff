@@ -155,7 +155,7 @@ nav[class*="-guilds"] {
         }
     }
 
-    [id^="-folder-items"] {
+    [id^="folder-items-"] {
         --guildbar-avatar-size: var(--guildbar-folder-size);
         --blob-scale: var(--folder-blob-scale);
     }
