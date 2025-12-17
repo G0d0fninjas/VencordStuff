@@ -59,7 +59,7 @@ nav[class*="guilds_"] {
     [class*="selected__"] {
         [class*="childWrapper__"],
         [class*="childWrapper__"] img,
-        [class*="icon_"],
+        [class*="icon_"]:not(div._2b1f52e43a8f1c02-iconBadge),
         &[class*="circleIconButton__"] {
             border-radius: 27% !important;
         }
