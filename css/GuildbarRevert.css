@@ -59,7 +59,7 @@ nav[class*="-guilds "] {
     [class*="-selected"] {
         [class*="-childWrapper "],
         [class*="-childWrapper "] img,
-        [class*="-icon"],
+        [class*="-icon"]:not(div._2b1f52e43a8f1c02-iconBadge),
         &[class$="-circleIconButton"] {
             border-radius: 27% !important;
         }
